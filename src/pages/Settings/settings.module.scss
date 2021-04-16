@@ -1,0 +1,33 @@
+.settingsContainer {
+  display: flex;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  padding-left: 30px;
+  text-decoration: none;
+  color: #363636;
+  display: block;
+  margin-bottom: 5px;
+  transition: .2s all;
+
+  &:hover {
+    color: #0872d5;
+  }
+}
+
+.link {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 30px 0 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.linkText {
+  margin-left: 10px;
+}

@@ -1,0 +1,63 @@
+.teammateContainer {
+  flex-basis: 720px;
+  margin: 0 auto;
+}
+
+.inviteTeammateContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+// .gridContainer {
+//   border: 1px solid #d6d6d6;
+//   border-radius: 5px;
+// }
+
+
+
+.operatorNameEmail {
+  width: 320px;
+}
+
+.operatorRole {
+  width: 100px;
+}
+
+.operatorStatus {
+  width: 100px;
+}
+
+.operatorName {
+  font-size: 14px;
+  margin: 0;
+}
+
+.operatorEmail {
+  font-size: 13px;
+  margin: 0;
+}
+
+.operatorRole,
+.operatorStatus {
+  font-size: 14px;
+}
+
+.active {
+  color: #00c200;
+}
+
+.pending {
+  color: #b1b1b1;
+}
+
+.notPaid {
+  color: #ee6953;
+}
+
+.modalBody {
+  padding: 30px 30px 0;
+}
+
+.modalFooter {
+  padding: 0 30px 15px 30px;
+}

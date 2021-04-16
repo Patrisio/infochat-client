@@ -1,0 +1,5 @@
+export const AUTH = {
+  INVITE: 'AUTH_INVITE',
+  SIGNIN: 'AUTH_SIGNIN',
+  SIGNUP: 'AUTH_SIGNUP',
+};

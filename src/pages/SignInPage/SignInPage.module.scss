@@ -1,0 +1,26 @@
+.formWrapper {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.h1 {
+  font-weight: 800;
+  text-align: center;
+}
+
+.formFooter {
+  text-align: center;
+  font-size: 15px;
+}
+
+.link {
+  color: #0a86f9;
+  text-decoration: none;
+  margin-left: 5px;
+}

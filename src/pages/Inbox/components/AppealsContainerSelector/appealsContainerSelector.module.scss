@@ -1,0 +1,92 @@
+.appealsContainerSeletor {
+  height: calc(100vh - 45px);
+  overflow: auto;
+}
+
+.incomingMessage {
+  width: 310px;
+  border-bottom: 1px solid #e9e9e9;
+  color: #444;
+  cursor: pointer;
+  padding: 13px 14px 13px;
+  transition: .2s all;
+  display: flex;
+}
+
+.message {
+  &:hover {
+    background: #fafafa;
+  }
+}
+
+.selected {
+  background: #0a86f9;
+  color: #fff;
+}
+
+.time {
+  color: rgba(62,62,62,.35);
+  font-size: 12px;
+  margin-bottom: 4px;
+}
+
+.countAndCreationDate {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-left: auto;
+  align-items: flex-end;
+  height: 40px;
+}
+
+.clientAndLastMessage {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  padding-left: 14px;
+}
+
+.lastMessage {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 13px;
+  padding-bottom: 2px;
+  color: #6a7277;
+}
+
+.lastMessageSelected {
+  color: #fff;
+}
+
+.clientName {
+  font-weight: 500;
+  font-size: 14px;
+  padding-bottom: 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.count {
+  border-radius: 10px;
+  min-width: 22px;
+  width: fit-content;
+  height: 18px;
+  background: #a3cff4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.timeSelected {
+  color: hsla(0,0%,100%,.35);
+}
+
+.greeting {
+  opacity: .5;
+}

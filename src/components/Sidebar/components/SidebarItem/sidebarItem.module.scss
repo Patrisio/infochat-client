@@ -1,0 +1,34 @@
+.listItem {
+  font-size: 14px;
+  color: hsla(0,0%,69%,.8);
+  font-weight: 400;
+  padding: 5px 0;
+  padding-left: 30px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dark {
+  &:hover {
+    background: #444;
+  }
+
+  &.active {
+    background: #444;
+  }
+}
+
+.light {
+  &:hover {
+    color: #0a86f9 !important;
+  }
+}
+
+.count {
+  margin-right: 30px;
+}
+
+.iconAndName {
+  display: flex;
+}

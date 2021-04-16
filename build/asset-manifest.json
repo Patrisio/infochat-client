@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a596b3c7.chunk.css",
+    "main.js": "/static/js/main.b8381682.chunk.js",
+    "main.js.map": "/static/js/main.b8381682.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9e437ecf.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9e437ecf.js.map",
+    "static/css/2.679831fc.chunk.css": "/static/css/2.679831fc.chunk.css",
+    "static/js/2.ce63940e.chunk.js": "/static/js/2.ce63940e.chunk.js",
+    "static/js/2.ce63940e.chunk.js.map": "/static/js/2.ce63940e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.679831fc.chunk.css.map": "/static/css/2.679831fc.chunk.css.map",
+    "static/css/main.a596b3c7.chunk.css.map": "/static/css/main.a596b3c7.chunk.css.map",
+    "static/js/2.ce63940e.chunk.js.LICENSE.txt": "/static/js/2.ce63940e.chunk.js.LICENSE.txt",
+    "static/media/arrow-right.ede5cc1b.svg": "/static/media/arrow-right.ede5cc1b.svg",
+    "static/media/channels.0b341882.svg": "/static/media/channels.0b341882.svg",
+    "static/media/chat-channels.c7ac7759.svg": "/static/media/chat-channels.c7ac7759.svg",
+    "static/media/chat-trigger-icon.150f066e.svg": "/static/media/chat-trigger-icon.150f066e.svg",
+    "static/media/chat.1a54cd85.svg": "/static/media/chat.1a54cd85.svg",
+    "static/media/clock.0ace60ea.svg": "/static/media/clock.0ace60ea.svg",
+    "static/media/fake-avatar.9d84487f.jpg": "/static/media/fake-avatar.9d84487f.jpg",
+    "static/media/install.c00438a7.svg": "/static/media/install.c00438a7.svg",
+    "static/media/invite.af9e7159.svg": "/static/media/invite.af9e7159.svg",
+    "static/media/operators.c4cf9d65.svg": "/static/media/operators.c4cf9d65.svg",
+    "static/media/stats.76532540.svg": "/static/media/stats.76532540.svg",
+    "static/media/style.1cd57f29.svg": "/static/media/style.1cd57f29.svg",
+    "static/media/teammates.2b6ed051.svg": "/static/media/teammates.2b6ed051.svg",
+    "static/media/template.c1955480.svg": "/static/media/template.c1955480.svg",
+    "static/media/theme1-big.d5e20fc7.png": "/static/media/theme1-big.d5e20fc7.png",
+    "static/media/theme2-big.9daa3227.png": "/static/media/theme2-big.9daa3227.png",
+    "static/media/theme3-big.55b2a9fb.png": "/static/media/theme3-big.55b2a9fb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e437ecf.js",
+    "static/css/2.679831fc.chunk.css",
+    "static/js/2.ce63940e.chunk.js",
+    "static/css/main.a596b3c7.chunk.css",
+    "static/js/main.b8381682.chunk.js"
+  ]
+}

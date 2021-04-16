@@ -1,0 +1,35 @@
+.chatWrapper {
+  width: 350px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background:#fff;
+}
+
+.inputArea {
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+  background: #fff;
+  padding: 16px 80px 16px 20px;
+  box-shadow: 0 -10px 40px 0 rgb(0 0 0 / 5%);
+}
+
+.messageWrapper {
+  width: 300px;
+  margin-bottom: 5px;
+  padding: 5px;
+  border-radius: 18px;
+}
+
+.clientMessage {
+  background: #0a86f9;
+  color: #fff;
+  margin-left: auto;
+}
+
+.teammateMessage {
+  background: #f0f0f0;
+  color: #464646;
+}

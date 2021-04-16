@@ -1,0 +1,109 @@
+.messageInnerContainer {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.messageInnerContainerLeft {
+  align-items: flex-start;
+}
+
+.messageInnerContainerRight {
+  align-items: flex-end;
+}
+
+.messageBody {
+  display: flex;
+  align-items: flex-end;
+}
+
+.messageWrapper {
+  width: 300px;
+  margin-bottom: 5px;
+  padding: 10px;
+  border-radius: 18px;
+  font-size: 14px;
+}
+
+.clientMessage {
+  position: relative;
+  background: #0a86f9;
+  color: #fff;
+  margin-left: 8px;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 20px;
+
+    z-index: -2;
+    left: -7px;
+    border-left: 20px solid #0a86f9;
+    border-bottom-right-radius: 16px 14px;
+    transform: translateY(-2px);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 20px;
+
+    z-index: -1;
+    left: 4px;
+    width: 26px;
+    background: #fff;
+    border-bottom-right-radius: 10px;
+    transform: translate(-30px,-2px);
+  }
+}
+
+.teammateMessage {
+  position: relative;
+  background: #f0f0f0;
+  margin-left: auto;
+  margin-right: 8px;
+  color: #464646;
+
+  &::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    height: 20px;
+
+    z-index: -2;
+    right: -7px;
+    border-right: 20px solid #f0f0f0;
+    border-bottom-left-radius: 16px 14px;
+    transform: translateY(-2px);
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    height: 20px;
+
+    z-index: -1;
+    right: 4px;
+    width: 26px;
+    background: #fff;
+    border-bottom-left-radius: 10px;
+    transform: translate(30px,-2px);
+  }
+}
+
+.creationTime {
+  font-size: 12px;
+  color: #3e3e3e;
+  opacity: .35;
+}
+
+.creationTimeClient {
+  margin-left: 35px
+}
+
+.creationTimeTeammate {
+  margin-right: 35px
+}

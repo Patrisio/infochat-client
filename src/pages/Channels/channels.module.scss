@@ -1,0 +1,89 @@
+.channelsContainer {
+  flex-basis: 720px;
+  margin: 0 auto;
+}
+
+.chatSettingsContainer {
+  width: 350px;
+}
+
+.modalBody {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #fafafa;
+}
+
+.title {
+  margin: 0;
+  padding: 15px 0;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.channelCard {
+  width: 140px;
+  text-align: center;
+  font-size: 14px;
+  color: #0a86f9;
+  text-decoration: none;
+  border-radius: 0 0 3px 3px;
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: .2s all;
+
+  &:hover {
+    box-shadow: 0 2px 8px 0 hsl(0deg 0% 85% / 50%);
+  }
+
+  &:not(:nth-child(3n)) {
+    margin-right: 15px;
+  }
+}
+
+.disabledChannel {
+  opacity: .5;
+}
+
+.channelNameContainer {
+  display: flex;
+  align-items: center;
+}
+
+.channelName {
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.channel {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.switcher {
+  display: flex;
+  align-items: center;
+}
+
+.switcherLabel {
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+.pending {
+  color: #b1b1b1;
+}
+
+.disabled {
+  color: #d6d6d6;
+}
